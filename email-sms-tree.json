@@ -1,0 +1,6 @@
+
+    {
+      "type": "Action",
+      "actionType": "SendEmail",
+      "parameters": ["PerezCarlos8553@gmail.com", "PerezCarlos8553@gmail.com"]
+    }

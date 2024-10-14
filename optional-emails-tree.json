@@ -1,0 +1,16 @@
+{
+    "type": "Loop",
+    "iterations": 10,
+    "subtree": {
+      "type": "Condition",
+      "condition": "Math.random() < 0.5",
+      "trueAction": {
+        "type": "Action",
+        "actionType": "SendSMS",
+        "parameters": ["+1234567890"]
+      },
+      "falseAction": {
+        "type": "DoNothing"
+      }
+    }
+  }

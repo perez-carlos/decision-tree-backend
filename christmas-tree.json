@@ -1,0 +1,12 @@
+{
+    "type": "Condition",
+    "condition": "new Date('2025-01-01').getDate() === new Date().getDate() && new Date('2025-01-01').getMonth() === new Date().getMonth() && new Date('2025-01-01').getFullYear() === new Date().getFullYear()",
+    "trueAction": {
+      "type": "Action",
+      "actionType": "SendSMS",
+      "parameters": ["+1234567890"]
+    },
+    "falseAction": {
+      "type": "DoNothing"
+    }
+  }
